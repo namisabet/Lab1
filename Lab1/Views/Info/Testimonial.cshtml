@@ -1,0 +1,37 @@
+﻿
+@{
+    ViewBag.Title = "Testimonial";
+}
+
+<head>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+</head>
+<body class="bg-info">
+    <div class="container">
+        <h2 class="text-center">Testimonials</h2>
+
+
+        <div class="bg-success">
+            <p class="text-center">I love the semester 5 course list!</p>
+            <p class="text-center">-Nami</p>
+        </div>
+        <div class="bg-success">
+            <p class="text-center">It's amazing! Absolutely splendid!</p>
+            <p class="text-center">-Kristian</p>
+        </div>
+
+
+        <div class="row">
+            <p class="text-center">
+                @Html.ActionLink("Index", "Index", "Default")
+            </p>
+
+            <p class="text-center">
+                @Html.ActionLink("Semester 5", "Semester", "Info")
+            </p>
+        </div>
+
+
+
+    </div>
+</body>

@@ -1,0 +1,37 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+<head>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+
+</head>
+<body class="bg-info">
+    <header></header>
+    
+    <div class="container">
+        <h2>Index</h2>
+
+        <div class="row">
+            <div class="col-md-6">
+            
+                <p>
+                    Check out some testimonials!
+                </p>
+                @Html.ActionLink("Testimonials", "Testimonial", "Info")
+            </div>
+
+            <div class="col-md-6">
+                <p>
+                    Check out the semester 5 courses!
+                </p>
+                @Html.ActionLink("Semester 5", "Semester", "Info")
+            </div>
+        </div>
+    </div>
+        
+        <footer></footer>
+
+
+</body>
+
